@@ -69,11 +69,10 @@ Below are the **training** and **validation** loss curves over epochs, showing t
 ```
 LLM
 ├── Code/
-│   ├── preprocess.ipynb          # Notebook for preparing the dataset
+│   ├── preprocess.ipynb          # Notebook for preparing content of Dataset folder from the parquet file. The parquet file can be found [here](https://huggingface.co/datasets/roneneldan/TinyStories)
 │   ├── train_test.ipynb          # Notebook for training and evaluating the model
 │   └── train_test.py             # Script version of training and evaluation pipeline
 ├── Dataset/
-│   └── 0000.parquet              # First part of the raw TinyStories dataset used for training
 │   └── text.txt                  # parquet file processed to plain text.
 ├── SavedModel/
 │   └── model.pth                 # Directory containing trained model weights
