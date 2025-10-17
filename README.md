@@ -70,13 +70,13 @@ Below are the **training** and **validation** loss curves over epochs, showing t
 LLM
 ├── Code/
 │   ├── preprocess.ipynb          # Notebook for preparing content of Dataset folder from the parquet file. The parquet file can be found [here](https://huggingface.co/datasets/roneneldan/TinyStories)
-│   ├── train_test.ipynb          # Notebook for training and evaluating the model
-│   └── train_test.py             # Script version of training and evaluation pipeline
+│   ├── train_test.ipynb          # Notebook for training and evaluating the model.
+│   └── train_test.py             # Script version of training and evaluation pipeline.
 ├── Dataset/
 │   └── text.txt                  # parquet file processed to plain text.
-├── SavedModel/
-│   └── model.pth                 # Directory containing trained model weights
-├── convergence.png               # Loss curves (training and validation)
+├── SavedModel.zip/               # Extract this zip file before using the code.
+│   └── model.pth                 # Directory containing trained model weights.
+├── convergence.png               # Loss curves (training and validation).
 └── README.md
 └── LICENSE
 ``` 
