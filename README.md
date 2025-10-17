@@ -49,6 +49,15 @@ It’s a ground-up implementation inspired by GPT-style architectures, written i
 
 ---
 
+## 📉 Training Curves
+
+Below are the **training** and **validation** loss curves over epochs, showing the model’s convergence during training.
+
+<p align="center">
+  <img src="convergence.png" alt="Training and Validation Loss" width="600"/>
+</p>
+
+
 
 ## 🧠 Lessons Learned
 - Understood **transformer internals** and **scaling laws** through hands-on experimentation.  
